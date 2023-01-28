@@ -3,9 +3,8 @@ from .models import Post
 import datetime
 
 from django.http import Http404
+
 # Create your views here.
-
-
 def post_list(request):
     posts = Post.objects.all()
     timeNow = datetime.datetime.now()
