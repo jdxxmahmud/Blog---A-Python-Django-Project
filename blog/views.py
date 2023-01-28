@@ -16,10 +16,13 @@ def post_list(request):
                    'time': timeNow.strftime("%I:%M %p")})
 
 
-def post_detail(request, id):
+def post_detail(request, year, month, day, post):
     timeNow = datetime.datetime.now()
     post = get_object_or_404(Post,
-                             id=id)
+                             publish__year=year,
+                             publish__month=month,
+                             publish__day=day,
+                             slug=post)
 
     return render(request,
                   'blog/post/detail.html',
