@@ -2,7 +2,6 @@ from django.shortcuts import render, get_object_or_404
 from .models import Post
 import datetime
 
-from django.http import Http404
 
 # Create your views here.
 def post_list(request):
