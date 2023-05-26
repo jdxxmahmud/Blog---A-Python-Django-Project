@@ -12,10 +12,18 @@
         {% endblock %}
     </div>
     <div id="sidebar">
-        <h2>My Blog</h2>
-        <p>Welcome to Junaid Mahmud's Blog</p>
-        <p id="date">Today is {{date}}</p>
-        <p id="time">Time: {{time}}</p>
+
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="{% static "img/jd.png" %}" alt="Card image cap">
+            <div class="card-body">
+              <h2 class="card-title">My Blog</h2>
+              <p class="card-text">Welcome to Junaid Mahmud's Blog</p>
+              <a href="https://www.linkedin.com/in/junaid-mahmud/" target="_blank" class="btn btn-primary">LinkedIn</a>
+            </div>
+          </div>
+        
     </div>
+
+
 </body>
 </html>

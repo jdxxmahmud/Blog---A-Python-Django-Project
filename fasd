@@ -1,0 +1,59 @@
+[33mcommit 97f7d34386c3ea525be9d7aff1367bb51960f757[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Junaid Mahmud <junaidmahmud@iut-dhaka.edu>
+Date:   Thu Feb 23 23:01:25 2023 +0600
+
+    git
+
+[33mcommit a4dabff15aa88a0aede6758553465032aa2a585c[m
+Author: Junaid Mahmud <junaidmahmud@iut-dhaka.edu>
+Date:   Sat Jan 28 13:29:09 2023 +0600
+
+    redirect to home page added
+
+[33mcommit b94e4cd3a72ac45d57eb786640cb0d0a25cd8a4c[m
+Author: Junaid Mahmud <junaidmahmud@iut-dhaka.edu>
+Date:   Sat Jan 28 13:24:38 2023 +0600
+
+    Added cannonical url, changed post url more seo friendly. The posts now will have unique slug and date conbined.
+
+[33mcommit 3ab6385a9b6542ed249a156e83641651101193da[m
+Author: Junaid Mahmud <junaidmahmud@iut-dhaka.edu>
+Date:   Fri Jan 27 19:00:55 2023 +0600
+
+    Added absolute URL, ch2
+
+[33mcommit 0519d0bb33d02fdb8fc72f7dff1f25286ea14ed9[m
+Author: Junaid Mahmud <junaidmahmud@iut-dhaka.edu>
+Date:   Sat Dec 31 01:09:46 2022 +0600
+
+    Test data entry
+
+[33mcommit 0a89d07905862e115b9651fb6240f6b2c011c41a[m
+Author: Junaid Mahmud <junaidmahmud@iut-dhaka.edu>
+Date:   Mon Dec 26 20:56:41 2022 +0600
+
+    added time and date in base.html
+
+[33mcommit 0ef9ab8306906041b87ddc5233d5b426ca8e6a6b[m
+Author: Junaid Mahmud <junaidmahmud@iut-dhaka.edu>
+Date:   Sun Dec 25 02:29:25 2022 +0600
+
+    Creating views and pages
+
+[33mcommit ed323f6e352b31ca363d03f1a9e202fab14c06a8[m
+Author: Junaid Mahmud <junaidmahmud@iut-dhaka.edu>
+Date:   Tue Dec 20 01:36:12 2022 +0600
+
+    added model to admin site, customized the admin site, created objects and saved, created custom queryset and applied. Created model managers.
+
+[33mcommit 10f41768779db630b61e3206d577d2b155d20c16[m
+Author: Junaid Mahmud <junaidmahmud@iut-dhaka.edu>
+Date:   Thu Dec 15 16:20:02 2022 +0600
+
+    migrating post model
+
+[33mcommit 0be04caefa8db38f66334a4874f40cb107ddfbea[m
+Author: Junaid Mahmud <junaidmahmud@iut-dhaka.edu>
+Date:   Thu Dec 15 13:07:20 2022 +0600
+
+    First Commit
